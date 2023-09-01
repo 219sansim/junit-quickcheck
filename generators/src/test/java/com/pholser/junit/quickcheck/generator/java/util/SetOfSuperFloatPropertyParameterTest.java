@@ -42,7 +42,7 @@ import static org.mockito.Mockito.*;
 public class SetOfSuperFloatPropertyParameterTest
     extends BasicGeneratorPropertyParameterTest {
 
-    public static final Set<? super Float> TYPE_BEARER = null;
+    public static final Set<? extends Float> TYPE_BEARER = null;
 
     @Override protected void primeSourceOfRandomness() {
         when(Generating.floats(randomForParameterGenerator))
